@@ -1,0 +1,86 @@
+/* hero background image */
+.bgImage {
+  height: 100vh;
+  background: url("/img/bgImage.jpg");
+  background-size: cover;
+  position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.tecIcons {
+  font-size: 4rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.tecIcons:hover {
+  transform: scale(1.2);
+}
+.hoverLink {
+  transition: all 0.2s ease-in-out;
+}
+
+.hoverLink:hover {
+  transform: scale(1.2);
+}
+
+#js {
+  color: #f0db4f;
+}
+
+#react {
+  color: #61dafb;
+}
+
+#node {
+  color: #3c873a;
+}
+
+#html5 {
+  color: #e34c26;
+}
+
+#css3 {
+  color: #264de4;
+}
+
+#java {
+  color: #ed1d25;
+}
+
+.pdf-color {
+  color: #f40f02;
+}
+
+.linkedin-color {
+  color: #0077b5;
+}
+
+.github-color {
+  color: #6e5494;
+}
+
+a.pdf-color:hover {
+  color: #f40f02;
+}
+
+a.github-color:hover {
+  color: #6e5494;
+}
+
+a.linkedin-color:hover {
+  color: #0077b5;
+}
